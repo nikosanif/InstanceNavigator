@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Instance Navigator</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">  <!-- Bootstrap 3.3.5 -->
+        <link rel="stylesheet" href="css/instanceStyle.css">
+    </head>
+    <body>
+        
+        <!--************************************
+                *       Instance Page
+                ****************************************-->
+        <div id="instance" class="pt-page" >
+            <!-- Content Wrapper. Contains page content -->
+            <div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+                <section class="content-header">
+                    <h1>
+                        Instance Navigator
+                        <small></small>
+                    </h1>
+                </section>
+                <section class="content">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="box">
+                                <div class="box-header">
+                                    <i class="fa fa-info-circle"></i>
+                                    <h3 class="box-title">Search</h3>
+                                </div><!-- /.box-header -->
+                                <div class="box-body">
+                                    <div class="row">
+                                        <div class="col-xs-11">
+                                            Search Instance: 
+                                            <div class="input-group">
+                                                <input id="instanceDirectSearch" type="text" name="table_search" class="form-control input-sm pull-right" placeholder="Search">
+                                                <div class="input-group-btn">
+                                                    <button id="instanceDirectSearchBTN" class="btn btn-sm btn-default">Search</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-xs-11">
+                                            Search Instance of Class: 
+                                            <div class="input-group">
+                                                <input id="instanceSearch" type="text" name="table_search" class="form-control input-sm pull-right" placeholder="Search">
+                                                <div class="input-group-btn">
+                                                    <button id="instanceSearchBTN" class="btn btn-sm btn-default">Search</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+
+                                        </div>
+                                    </div>
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="box">
+                                <div class="box-header">
+                                    <i class="fa fa-share-alt"></i>
+                                    <h3 class="box-title">Instance Graph</h3>
+                                </div><!-- /.box-header -->
+                                <div class="box-body">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="col-xs-2">
+                                                <div class="pull-right prevSelected"></div>
+                                                <span class="pull-right">Previous Selected</span>
+                                            </div>
+                                            <div class="col-xs-2">
+                                                <div class="pull-right curSelected"></div>
+                                                <span class="pull-right">Selected</span>
+                                            </div>
+                                            <div class="col-xs-2">
+                                                <div class="pull-right yellow_circle"></div>
+                                                <span class="pull-right">Class</span>
+                                            </div>
+                                            <div class="col-xs-2">
+                                                <div class="pull-right grey_square"></div>
+                                                <span class="pull-right">Instance</span>
+                                            </div>
+                                            <div class="col-xs-2">
+                                                <div class=" pull-right green_square"></div>
+                                                <span class="pull-right">Literal</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="instanceGraph-container">
+                                                <div id="instanceGraph"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
+                        </div>
+                    </div>
+                </section>
+            </div><!-- /.content-wrapper -->
+        </div>
+        <script src="js/jQuery/jQuery-2.1.4.min.js"></script> <!-- jQuery 2.1.4 -->
+        <script src="js/jQueryUI/jquery-ui.min.js"></script> 
+        <script src="css/bootstrap/js/bootstrap.min.js"></script> <!-- Bootstrap 3.3.5 -->
+        
+        <!--D3js-->
+        <script language="javascript" type="text/javascript" src="js/d3/d3.js"></script>
+        <script language="javascript" type="text/javascript" src="js/d3/d3.min.js"></script> 
+        
+        <script language="javascript" type="text/javascript" src="js/AjaxRequests.js"></script> 
+        <script language="javascript" type="text/javascript" src="js/instanceGraph.js"></script> 
+        
+        
+    </body>
+</html>

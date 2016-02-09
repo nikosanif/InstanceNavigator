@@ -1,0 +1,382 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:oeaw="http://www.oeaw.ac.at/"
+    xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:crmdig="http://www.ics.forth.gr/isl/CRMext/CRMdig.rdfs/"
+    xmlns:ariadne="http://www.ariadne-infrastructure.eu/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <crm:E22_Man-Made_Object rdf:about="http://www.oeaw.ac.at/COIN/626">
+    <crm:P45_consists_of>
+      <skos:Concept rdf:about="http://www.oeaw.ac.at/material/2">
+        <skos:prefLabel>AR</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E57_Material"/>
+      </skos:Concept>
+    </crm:P45_consists_of>
+    <crm:P52_has_current_owner>
+      <crm:E40_Legal_Body rdf:about="http://www.oeaw.ac.at/">
+        <rdfs:label xml:lang="en">Austrian Academy of Science</rdfs:label>
+        <rdfs:label xml:lang="de">Österreichische Akademie der Wissenschaften</rdfs:label>
+      </crm:E40_Legal_Body>
+    </crm:P52_has_current_owner>
+    <crm:P46i_forms_part_of>
+      <crm:E78_Collection rdf:about="http://www.oeaw.ac.at/collection/dFMRO">
+        <rdfs:label xml:lang="en">Coin Collection dFMRO</rdfs:label>
+      </crm:E78_Collection>
+    </crm:P46i_forms_part_of>
+    <crm:P30i_custody_transferred_through>
+      <crm:E10_Transfer_of_Custody rdf:about="urn:uuid:f60dd7b6-e1fd-448a-8f96-33d1e5d42d4d">
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="urn:uuid:c2d403bd-d4b8-451d-8867-f19d720442fd">
+            <crm:P81_ongoing_throughout xml:lang="de">-</crm:P81_ongoing_throughout>
+            <rdfs:label>find date of coin  626</rdfs:label>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P2_has_type>
+          <skos:Concept rdf:about="http://www.oeaw.ac.at/term/2">
+            <rdfs:label xml:lang="en">stray-find</rdfs:label>
+            <rdfs:label xml:lang="de">Streufund</rdfs:label>
+            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+          </skos:Concept>
+        </crm:P2_has_type>
+        <crm:P7_took_place_at>
+          <crm:E53_Place rdf:about="http://www.oeaw.ac.at/place/242">
+            <rdfs:label xml:lang="de">Mautern</rdfs:label>
+          </crm:E53_Place>
+        </crm:P7_took_place_at>
+        <rdfs:label>find of coin  626</rdfs:label>
+      </crm:E10_Transfer_of_Custody>
+    </crm:P30i_custody_transferred_through>
+    <rdfs:label>626</rdfs:label>
+    <crm:P65_shows_visual_item>
+      <crm:E36_Visual_Item rdf:about="urn:uuid:81f86a8f-8f22-4850-8c36-bf01715b3d1e">
+        <crm:P3_has_note>99</crm:P3_has_note>
+        <crm:P2_has_type>
+          <skos:Concept rdf:about="http://www.oeaw.ac.at/terms/officina">
+            <skos:prefLabel>officina</skos:prefLabel>
+            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+          </skos:Concept>
+        </crm:P2_has_type>
+        <rdfs:label>officina of coin  626</rdfs:label>
+      </crm:E36_Visual_Item>
+    </crm:P65_shows_visual_item>
+    <crmdig:L1i_was_digitized_by>
+      <crmdig:D2_Digitization_Process rdf:about="urn:uuid:6bcaa88d-0a10-46e3-b870-ba74cf799d2e">
+        <crmdig:L11_had_output>
+          <crmdig:D1_Digital_Object rdf:about="urn:uuid:4a574dba-4315-4680-890b-f147746944ce">
+            <crmdig:L4_has_preferred_label>000626</crmdig:L4_has_preferred_label>
+            <rdfs:label>digital object (File)  000626</rdfs:label>
+          </crmdig:D1_Digital_Object>
+        </crmdig:L11_had_output>
+        <rdfs:label>digitization of coin  626</rdfs:label>
+      </crmdig:D2_Digitization_Process>
+    </crmdig:L1i_was_digitized_by>
+    <crm:P2_has_type>
+      <skos:Concept rdf:about="http://www.oeaw.ac.at/status/1">
+        <skos:prefLabel xml:lang="en">genuine</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Münze</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+      </skos:Concept>
+    </crm:P2_has_type>
+    <crm:P2_has_type>
+      <skos:Concept rdf:about="http://www.oeaw.ac.at/denomination/239">
+        <crm:P2_has_type>
+          <skos:Concept rdf:about="http://www.ariadne-infrastructure.eu/concepts/denomination">
+            <skos:prefLabel>denomination</skos:prefLabel>
+            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+          </skos:Concept>
+        </crm:P2_has_type>
+        <skos:prefLabel xml:lang="de">Kls</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+      </skos:Concept>
+    </crm:P2_has_type>
+    <crm:P2_has_type>
+      <skos:Concept rdf:about="http://www.ariadne-infrastructure.eu/concepts/coins">
+        <skos:prefLabel>coins</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+      </skos:Concept>
+    </crm:P2_has_type>
+    <crm:P3_has_note>neben der Bundesheerkaserne</crm:P3_has_note>
+    <crm:P1_is_identified_by>
+      <crm:E41_Appellation rdf:about="urn:uuid:d28e3138-9f85-44c4-9b37-7545b3265e9c">
+        <rdfs:label>626</rdfs:label>
+      </crm:E41_Appellation>
+    </crm:P1_is_identified_by>
+    <crm:P50_has_current_keeper rdf:resource="http://www.oeaw.ac.at/"/>
+    <crm:P43_has_dimension>
+      <crm:E54_Dimension rdf:about="urn:uuid:259ba727-2acf-4be8-8a35-c467badda921">
+        <crm:P90_has_value>9</crm:P90_has_value>
+        <crm:P91_has_unit>
+          <crm:E58_Measurement_Unit rdf:about="http://www.ariadne-infrastructure.eu/measurement%20units/h">
+            <skos:prefLabel>h</skos:prefLabel>
+          </crm:E58_Measurement_Unit>
+        </crm:P91_has_unit>
+        <crm:P2_has_type>
+          <skos:Concept rdf:about="http://www.ariadne-infrastructure.eu/dimensions/angle">
+            <skos:prefLabel>angle</skos:prefLabel>
+            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+          </skos:Concept>
+        </crm:P2_has_type>
+        <crm:P2_has_type>
+          <skos:Concept rdf:about="http://www.ariadne-infrastructure.eu/dimensions/die%20axe">
+            <skos:prefLabel>die axe</skos:prefLabel>
+            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+          </skos:Concept>
+        </crm:P2_has_type>
+        <rdfs:label>die axe of coin  626</rdfs:label>
+      </crm:E54_Dimension>
+    </crm:P43_has_dimension>
+    <crm:P43_has_dimension>
+      <crm:E54_Dimension rdf:about="urn:uuid:133d4a54-dda4-498f-b5ce-6080e68c2d2e">
+        <crm:P90_has_value>0.43</crm:P90_has_value>
+        <crm:P91_has_unit>
+          <crm:E58_Measurement_Unit rdf:about="http://www.ariadne-infrastructure.eu/measurement%20units/gr">
+            <skos:prefLabel>gr</skos:prefLabel>
+          </crm:E58_Measurement_Unit>
+        </crm:P91_has_unit>
+        <crm:P2_has_type>
+          <skos:Concept rdf:about="http://www.ariadne-infrastructure.eu/dimensions/weight">
+            <skos:prefLabel>weight</skos:prefLabel>
+            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+          </skos:Concept>
+        </crm:P2_has_type>
+        <rdfs:label>weight of coin  626</rdfs:label>
+      </crm:E54_Dimension>
+    </crm:P43_has_dimension>
+    <crm:P108i_was_produced_by>
+      <crm:E12_Production rdf:about="urn:uuid:095a3a2a-3127-44e6-b557-286917809623">
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="urn:uuid:25106aa7-d4b5-41d6-8854-5d7986817dda">
+            <crm:P3_has_note>ca. 100 v. - 0 n. Chr.</crm:P3_has_note>
+            <crm:P2_has_type>
+              <skos:Concept rdf:about="http://www.oeaw.ac.at/dates/circa">
+                <skos:prefLabel>circa</skos:prefLabel>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+              </skos:Concept>
+            </crm:P2_has_type>
+            <crm:P81a_end_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >-0100-12-31T23:59:59</crm:P81a_end_of_the_begin>
+            <crm:P81b_begin_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >0000-01-01T00:00:00</crm:P81b_begin_of_the_end>
+            <rdfs:label>1090010001</rdfs:label>
+            <rdfs:label>ca. 100 v. - 0 n. Chr.</rdfs:label>
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >-0100-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P3_has_note>1090010001</crm:P3_has_note>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >0000-12-31T23:59:59</crm:P82b_end_of_the_end>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P14_carried_out_by>
+          <crm:E40_Legal_Body rdf:about="http://www.oeaw.ac.at/mint/2291">
+            <crm:P138i_has_representation>
+              <crm:E37_Mark rdf:about="http://www.oeaw.ac.at/mint/this%20is%20a%20mint%20mark">
+                <crm:P2_has_type>
+                  <skos:Concept rdf:about="http://www.ariadne-infrastructure.eu/concepts/mint%20mark">
+                    <skos:prefLabel>mint mark</skos:prefLabel>
+                    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+                  </skos:Concept>
+                </crm:P2_has_type>
+                <rdfs:label>this is a mint mark</rdfs:label>
+              </crm:E37_Mark>
+            </crm:P138i_has_representation>
+            <crm:P2_has_type>
+              <skos:Concept rdf:about="http://www.ariadne-infrastructure.eu/concepts/mint">
+                <skos:prefLabel>mint</skos:prefLabel>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+              </skos:Concept>
+            </crm:P2_has_type>
+            <rdfs:label xml:lang="en">celtic mint</rdfs:label>
+            <rdfs:label xml:lang="de">kelt. Mzst.</rdfs:label>
+          </crm:E40_Legal_Body>
+        </crm:P14_carried_out_by>
+        <crm:P17_was_motivated_by>
+          <crm:E7_Activity rdf:about="urn:uuid:019b380d-13e3-4485-9d09-28ee704aac31">
+            <crm:P14_carried_out_by>
+              <crm:E39_Actor rdf:about="http://www.oeaw.ac.at/issuer/243">
+                <rdfs:label xml:lang="en">Boii</rdfs:label>
+                <rdfs:label xml:lang="de">Boier</rdfs:label>
+              </crm:E39_Actor>
+            </crm:P14_carried_out_by>
+            <crm:P2_has_type>
+              <skos:Concept rdf:about="http://www.ariadne-infrastructure.eu/concepts/issuing">
+                <skos:prefLabel>issuing</skos:prefLabel>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+              </skos:Concept>
+            </crm:P2_has_type>
+            <rdfs:label>issuing of coin  626</rdfs:label>
+          </crm:E7_Activity>
+        </crm:P17_was_motivated_by>
+        <crm:P9i_forms_part_of>
+          <crm:E4_Period rdf:about="http://www.oeaw.ac.at/country/565">
+            <crm:P2_has_type>
+              <skos:Concept rdf:about="http://www.ariadne-infrastructure.eu/concepts/country">
+                <skos:prefLabel>country</skos:prefLabel>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+              </skos:Concept>
+            </crm:P2_has_type>
+            <rdfs:label xml:lang="en">CELTS</rdfs:label>
+            <rdfs:label xml:lang="de">KELTEN</rdfs:label>
+          </crm:E4_Period>
+        </crm:P9i_forms_part_of>
+        <crm:P10_falls_within>
+          <crm:E4_Period rdf:about="http://www.oeaw.ac.at/country/1">
+            <crm:P2_has_type rdf:resource="http://www.ariadne-infrastructure.eu/concepts/country"/>
+            <rdfs:label xml:lang="en">Austria</rdfs:label>
+            <rdfs:label xml:lang="de">Österreich</rdfs:label>
+          </crm:E4_Period>
+        </crm:P10_falls_within>
+        <crm:PC1_produced_things_of_type>
+          <skos:Concept rdf:about="http://www.ariadne-infrastructure.eu/concepts/Roman%20coins">
+            <skos:prefLabel>Roman coins</skos:prefLabel>
+            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+          </skos:Concept>
+        </crm:PC1_produced_things_of_type>
+        <rdfs:label>production of coin  626</rdfs:label>
+      </crm:E12_Production>
+    </crm:P108i_was_produced_by>
+  </crm:E22_Man-Made_Object>
+  <crm:E22_Man-Made_Object rdf:about="http://www.oeaw.ac.at/COIN/627">
+    <crmdig:L1i_was_digitized_by>
+      <crmdig:D2_Digitization_Process rdf:about="urn:uuid:237aa77a-fc1f-45a2-89e4-e2f3edbc6f2e">
+        <crmdig:L11_had_output>
+          <crmdig:D1_Digital_Object rdf:about="urn:uuid:1c35dbfa-bc37-4b70-a7df-0867960c0064">
+            <crmdig:L4_has_preferred_label>000627</crmdig:L4_has_preferred_label>
+            <rdfs:label>digital object (File)  000627</rdfs:label>
+          </crmdig:D1_Digital_Object>
+        </crmdig:L11_had_output>
+        <rdfs:label>digitization of coin  627</rdfs:label>
+      </crmdig:D2_Digitization_Process>
+    </crmdig:L1i_was_digitized_by>
+    <crm:P2_has_type>
+      <skos:Concept rdf:about="http://www.oeaw.ac.at/denomination/30">
+        <crm:P2_has_type rdf:resource="http://www.ariadne-infrastructure.eu/concepts/denomination"/>
+        <skos:prefLabel xml:lang="de">D</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+      </skos:Concept>
+    </crm:P2_has_type>
+    <crm:P2_has_type rdf:resource="http://www.oeaw.ac.at/status/1"/>
+    <crm:P52_has_current_owner rdf:resource="http://www.oeaw.ac.at/"/>
+    <crm:P56_bears_feature>
+      <crm:E25_Man-Made_Feature rdf:about="urn:uuid:8a28781e-2692-472e-9437-16f90706f653">
+        <crm:P62_depicts>
+          <crm:E90_Symbolic_Object rdf:about="urn:uuid:fd57ce5f-5e39-41a5-b6d0-b7d2ca90153c">
+            <crm:P3_has_note>Iuppiter in Quadriga n. r. ..</crm:P3_has_note>
+            <rdfs:label>Reverse pic:  Iuppiter in Quadriga n. r. ..</rdfs:label>
+          </crm:E90_Symbolic_Object>
+        </crm:P62_depicts>
+        <crm:P65_shows_visual_item>
+          <crm:E34_Inscription rdf:about="urn:uuid:355732be-6412-463d-aee1-82161f7e600a">
+            <crm:P3_has_note>CN.DOMI</crm:P3_has_note>
+            <rdfs:label>Reverse inscription:  CN.DOMI</rdfs:label>
+          </crm:E34_Inscription>
+        </crm:P65_shows_visual_item>
+        <crm:P2_has_type>
+          <skos:Concept rdf:about="http://www.ariadne-infrastructure.eu/features/reverse">
+            <skos:prefLabel>reverse</skos:prefLabel>
+            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+          </skos:Concept>
+        </crm:P2_has_type>
+        <rdfs:label>reverse</rdfs:label>
+      </crm:E25_Man-Made_Feature>
+    </crm:P56_bears_feature>
+    <crm:P1_is_identified_by>
+      <crm:E41_Appellation rdf:about="urn:uuid:fa371f9a-41cf-4e4c-898c-29f89af8f256">
+        <rdfs:label>627</rdfs:label>
+      </crm:E41_Appellation>
+    </crm:P1_is_identified_by>
+    <rdfs:label>627</rdfs:label>
+    <crm:P3_has_note>-</crm:P3_has_note>
+    <crm:P50_has_current_keeper rdf:resource="http://www.oeaw.ac.at/"/>
+    <crm:P108i_was_produced_by>
+      <crm:E12_Production rdf:about="urn:uuid:78ef3a21-2f0b-4aae-842b-b8f1874e6ca7">
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="urn:uuid:0644fe28-1b61-4646-81aa-7de1492f3416">
+            <crm:P3_has_note>116 - 115 v. Chr.</crm:P3_has_note>
+            <rdfs:label>116 - 115 v. Chr.</rdfs:label>
+            <crm:P3_has_note>1088408850</crm:P3_has_note>
+            <rdfs:label>1088408850</rdfs:label>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >-0115-12-31T23:59:59</crm:P82b_end_of_the_end>
+            <crm:P81b_begin_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >-0115-01-01T00:00:00</crm:P81b_begin_of_the_end>
+            <crm:P81a_end_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >-0116-12-31T23:59:59</crm:P81a_end_of_the_begin>
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >-0116-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P14_carried_out_by>
+          <crm:E40_Legal_Body rdf:about="http://www.oeaw.ac.at/mint/244">
+            <crm:P2_has_type rdf:resource="http://www.ariadne-infrastructure.eu/concepts/mint"/>
+            <rdfs:label xml:lang="en">Rome</rdfs:label>
+            <rdfs:label xml:lang="de">Rom (Rep.)</rdfs:label>
+          </crm:E40_Legal_Body>
+        </crm:P14_carried_out_by>
+        <crm:P17_was_motivated_by>
+          <crm:E7_Activity rdf:about="urn:uuid:9efe31c3-f2f4-4de8-94af-42f9d7362461">
+            <crm:P14_carried_out_by>
+              <crm:E39_Actor rdf:about="http://www.oeaw.ac.at/issuer/536">
+                <rdfs:label xml:lang="en">CN. DOMI, Q. CVRTI, M. SILA</rdfs:label>
+                <rdfs:label xml:lang="de">CN.DOMI, Q. CVRTI, M. SILA</rdfs:label>
+              </crm:E39_Actor>
+            </crm:P14_carried_out_by>
+            <crm:P2_has_type rdf:resource="http://www.ariadne-infrastructure.eu/concepts/issuing"/>
+            <rdfs:label>issuing of coin  627</rdfs:label>
+          </crm:E7_Activity>
+        </crm:P17_was_motivated_by>
+        <crm:P9i_forms_part_of>
+          <crm:E4_Period rdf:about="http://www.oeaw.ac.at/country/566">
+            <crm:P2_has_type rdf:resource="http://www.ariadne-infrastructure.eu/concepts/country"/>
+            <rdfs:label xml:lang="en">ROME / REPUBLIC</rdfs:label>
+            <rdfs:label xml:lang="de">REPUBLIK</rdfs:label>
+          </crm:E4_Period>
+        </crm:P9i_forms_part_of>
+        <crm:P10_falls_within rdf:resource="http://www.oeaw.ac.at/country/1"/>
+        <crm:PC1_produced_things_of_type rdf:resource="http://www.ariadne-infrastructure.eu/concepts/Roman%20coins"/>
+        <rdfs:label>production of coin  627</rdfs:label>
+      </crm:E12_Production>
+    </crm:P108i_was_produced_by>
+    <crm:P2_has_type rdf:resource="http://www.ariadne-infrastructure.eu/concepts/coins"/>
+    <crm:P43_has_dimension>
+      <crm:E54_Dimension rdf:about="urn:uuid:12fff7c8-7d82-4c01-821c-0987decbcd59">
+        <crm:P90_has_value>3.46</crm:P90_has_value>
+        <crm:P91_has_unit rdf:resource="http://www.ariadne-infrastructure.eu/measurement%20units/gr"/>
+        <crm:P2_has_type rdf:resource="http://www.ariadne-infrastructure.eu/dimensions/weight"/>
+        <rdfs:label>weight of coin  627</rdfs:label>
+      </crm:E54_Dimension>
+    </crm:P43_has_dimension>
+    <crm:P45_consists_of rdf:resource="http://www.oeaw.ac.at/material/2"/>
+    <crm:P43_has_dimension>
+      <crm:E54_Dimension rdf:about="urn:uuid:321daf75-1488-45d5-b5f7-7d563c44aade">
+        <crm:P90_has_value>4</crm:P90_has_value>
+        <crm:P91_has_unit rdf:resource="http://www.ariadne-infrastructure.eu/measurement%20units/h"/>
+        <crm:P2_has_type rdf:resource="http://www.ariadne-infrastructure.eu/dimensions/angle"/>
+        <crm:P2_has_type rdf:resource="http://www.ariadne-infrastructure.eu/dimensions/die%20axe"/>
+        <rdfs:label>die axe of coin  627</rdfs:label>
+      </crm:E54_Dimension>
+    </crm:P43_has_dimension>
+    <crm:P65_shows_visual_item>
+      <crm:E36_Visual_Item rdf:about="urn:uuid:47077e54-25aa-45a0-ab4c-8799c9354ef5">
+        <crm:P3_has_note>99</crm:P3_has_note>
+        <crm:P2_has_type rdf:resource="http://www.oeaw.ac.at/terms/officina"/>
+        <rdfs:label>officina of coin  627</rdfs:label>
+      </crm:E36_Visual_Item>
+    </crm:P65_shows_visual_item>
+    <crm:P46i_forms_part_of rdf:resource="http://www.oeaw.ac.at/collection/dFMRO"/>
+    <crm:P30i_custody_transferred_through>
+      <crm:E10_Transfer_of_Custody rdf:about="urn:uuid:ededddbc-da18-4e0c-8084-4a6b4344f62d">
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="urn:uuid:8e942b26-136f-48c3-be88-4ce59acb8513">
+            <crm:P81_ongoing_throughout xml:lang="de">1980er Jahre</crm:P81_ongoing_throughout>
+            <rdfs:label>find date of coin  627</rdfs:label>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P2_has_type rdf:resource="http://www.oeaw.ac.at/term/2"/>
+        <crm:P7_took_place_at rdf:resource="http://www.oeaw.ac.at/place/242"/>
+        <rdfs:label>find of coin  627</rdfs:label>
+      </crm:E10_Transfer_of_Custody>
+    </crm:P30i_custody_transferred_through>
+  </crm:E22_Man-Made_Object>
+</rdf:RDF>
